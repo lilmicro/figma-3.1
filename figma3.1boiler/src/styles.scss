@@ -247,7 +247,7 @@ text-align:  center;
    padding-top: 66.8px;
    padding-left: 100px;
    padding-right: 100px; 
- 
+
 }
 .hero2_text{
    margin-top: 40px;
@@ -283,7 +283,7 @@ margin-top:  36px;
   margin-top: 16px;
   margin-bottom: 16px;
   background-color: #F5F7FA;
-
+flex-direction: row;
 }
 
 .box4__text{
@@ -292,5 +292,52 @@ margin-left: 48.1px;
 margin-right: 10px;
 }
 .box4__infopart{
-  
+  flex-direction: column; 
+  justify-content: flex-end;
+    display: inline-flex;
+    padding-left: 10px;
+    margin-top: 21.4px;
+    margin-bottom: 21.4px;
+    margin-right: 48px;
+    margin-left: 252px;
 }
+.itemtext{
+
+}
+
+
+
+
+.box5{
+  margin-top: 116px;
+  padding-left: 48px;
+  padding-right: 48px;
+  display: inline-flex;
+  align-content: center;
+  justify-content: space-between;
+}
+
+    
+.box5{
+   display: flex;  
+
+}
+.hero3{
+ padding-left: 48.08px;
+   padding-right: 48.08px;
+   display: flex;
+   justify-content: center;
+}
+
+.box5__illustration{
+ align-items: center;
+ justify-items: center;
+ transform: scale(3);
+margin-left: 78px;
+}
+.box5__textpart{
+text-align: left;
+}
+
+
+

@@ -79,27 +79,23 @@ padding-left: 48px;
 .frame1{
   flex-direction: column; 
   justify-content: flex-start; 
-  align-items: flex-start; 
   gap: 22.27px; 
-  display: inline-flex;
+  display: flex;
 }
 
 h1{
     color: #4D4D4D; 
     font-size: 44.55px; 
-    font-family: Inter, sans-serif; 
     font-weight: 600; 
     line-height: 52.90px; 
     word-wrap: break-word;
     padding-top: 60px;
-      justify-content: center; 
     align-items:center; 
 }
 
 h1 > span{
  color: #4CAF4F;
 font-size: 40.55px;
-font-family: Inter, sans-serif;
 font-weight: 600;
 line-height: 52.90px;
 word-wrap: break-word;
@@ -162,7 +158,6 @@ word-wrap: break-word;
 
 .texttext{
     width: 100%; 
-    text-align: center; 
     color: #717171; 
     font-size: 11.14px; 
     font-weight: 400; 
@@ -170,6 +165,8 @@ word-wrap: break-word;
     word-wrap: break-word;
     padding-bottom: 11px;
 }
+
+
 .clientlogo{
     width: 100%; 
     height: 100%; 
@@ -184,17 +181,21 @@ word-wrap: break-word;
     margin:  0 40px;
 }
 
-
+.clients{
+  margin-top: 27.8px;
+  margin-bottom: 27.8px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
 
 
 .community{
   gap: 11.14px; 
   display: flex;
-  padding-top: 27px; justify-content: space-between;
+  justify-content: center;
 }
 
 .community__text{
-  flex-direction: column; 
   justify-content: center; 
   align-items: center; 
   gap: 5.57px; 
@@ -207,23 +208,28 @@ margin-bottom: 6px;
     display: inline-flex;
     flex-direction: column;
     padding-top: 5px;
-    flex-wrap: nowrap;
    flex-direction: row;
 }
+
 
 .membership, .natasociation, .clubsgroups{
     background: white; 
     box-shadow: 0px 0.6677330732345581px 1.3354661464691162px rgba(171, 190, 209, 0.20); 
     border-radius: 2.67px; 
      gap: 2.67px; 
-     justify-content: center;   padding-left: 10.68px;
+     justify-content: center;   
+     padding-left: 10.68px;
     padding-right: 10.68px; 
     padding-top: 8.01px; 
     padding-bottom: 8.01px;
-display: flex;
-flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5.5px;
 }
 
+.member, .icongreen, .texttext, h4{
+text-align:  center;
+}
 
 
 
@@ -232,18 +238,59 @@ flex-direction: column;
   height: 100%;
    width: 100%; 
    display: flex;
+   padding-left: 48.08px;
+   padding-right: 48.08px;
+   margin-top: 10px;
 }
 .hero2{
    padding-bottom: 66.8px;
    padding-top: 66.8px;
    padding-left: 100px;
    padding-right: 100px; 
+ 
+}
+.hero2_text{
+   margin-top: 40px;
+   display: flex;
 }
 .illustration2{
   width: 100%;
   height: 100%;
 }
 .frametext{
-  justify-content: flex-start;
-align-items: center;
+}
+
+.hero2_texttext1{
+text-align: left;
+margin-top:  36px;
+}
+.hero2_texttext{
+  text-align: left;
+  padding-bottom: 50px;
+}
+.button2{
+
+}
+
+
+
+
+.box4{
+  padding-left: 48px;
+  padding-right: 48px;
+  padding-top: 21.5px;
+  padding-bottom: 21.5px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  background-color: #F5F7FA;
+
+}
+
+.box4__text{
+margin-top: 21.5px;
+margin-left: 48.1px;
+margin-right: 10px;
+}
+.box4__infopart{
+  
 }
